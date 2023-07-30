@@ -1,4 +1,44 @@
 @charset "UTF-8";
-body{
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
     background-color: aquamarine;
+}
+
+body{
+    background: url('../pacote-d013/imagens/fundo-madeira.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top left;
+
+}
+
+main{
+    position: relative;
+    height: 100vh;
+
+}
+
+section#telefone{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    background: url('../pacote-d013/imagens/frame-iphone.png');
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 311px;
+    height: 580px;
+    
 }
